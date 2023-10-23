@@ -39,11 +39,30 @@
       .Quarenta{
         width: 1024px;
       }
+      .QuarentaEdos{
+          width: 512px;
+          border-radius: 125px;
+          margin-top: 50px;
+        }
+      .container1{
+        display: flex;
+        width: 55%;
+      }
+      .sobre{
+        font-family: 'roboto condensed', Sans-serif;
+        font-size: 40px;
+        font-weight: 400;
+        text-shadow: 0 0 10px #ffbc4f;
+      }
       @media (max-width: 556px){
         .logo{
           margin-left: 1%;
           margin-top: 1%;
           font-size: 25px;
+        }
+        .container1{
+          display: block;
+          width: 100%;
         }
         .Quarenta{
           width: 300px;
@@ -78,11 +97,21 @@
           </ul>
         </div>
       </nav>
-      <div class="main">
-        <center><img src="https://ordemparanormal.com.br/wp-content/uploads/elementor/thumbs/Episodio2-parehrns3zthxwg8066uihu8rfs82i5nzsgnepa3vu.jpg" alt="" class="Quarenta mt-4 mb-4"></center>
+      <div class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <center><img src="imagens/teste123.png" alt="" class="Quarenta mt-4 mb-4 border rounded img-fluid"></center>
+          </div>
+          <div class="carousel-item">
+            <center><img src="imagens/Carrosel1PI.png" alt="" class="Quarenta mt-4 mb-4 border rounded img-fluid"></center>
+          </div>
+        </div>
       </div>
-      <center><img src="coracaobonito.png" alt="" class="QuarentaEdos"></center>
-    <p class="text-justify p-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore porro voluptate optio eos eius. Praesentium dignissimos tempore incidunt amet voluptates obcaecati, alias nemo hic maxime similique, quas reiciendis eaque commodi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dicta voluptas ex possimus ducimus, facilis magnam ea illum, quia expedita fugiat eos quas similique ullam. A delectus accusamus maxime fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptatibus natus nostrum obcaecati. Sit quis velit impedit commodi aspernatur asperiores amet tenetur, ducimus, dolor voluptatibus ea veniam rem magnam natus!</p>
+      <center><h1 class="sobre mt-4">Pra Mariana?</h1></center>
+    <div class="container1 col-sm-8 m-auto">
+      <center><img src="imagens/coracaobonito.png" alt="" class="QuarentaEdos"></center>
+      <p class="text-justify p-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore porro voluptate optio eos eius. Praesentium dignissimos tempore incidunt amet voluptates obcaecati, alias nemo hic maxime similique, quas reiciendis eaque commodi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dicta voluptas ex possimus ducimus, facilis magnam ea illum, quia expedita fugiat eos quas similique ullam. A delectus accusamus maxime fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptatibus natus nostrum obcaecati. Sit quis velit impedit commodi aspernatur asperiores amet tenetur, ducimus, dolor voluptatibus ea veniam rem magnam natus!</p>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
